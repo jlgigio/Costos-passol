@@ -1,0 +1,39 @@
+# Credenciales — NUNCA subir a GitHub
+credentials.json
+*.json.key
+service_account*.json
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Logs
+logs/
+*.log
+
+# Build frontend
+public/
+frontend/dist/
+frontend/node_modules/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

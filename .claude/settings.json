@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(tasklist)",
+      "Bash(uvicorn main:app --port 8000)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(python -c \":*)",
+      "Bash(python -c \"import fastapi, uvicorn, sqlalchemy, psycopg2; print\\(''deps OK''\\)\")",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(curl -s \"http://localhost:8000/api/costos/buscar?q=duco&tipo=Producto%20Terminado\")",
+      "Bash(curl -s \"http://localhost:8000/\")",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(curl -s \"http://localhost:8000/api/costos/buscar?q=duco\")",
+      "Bash(curl -v \"http://localhost:8000/\")",
+      "Bash(curl -s \"http://localhost:8000/api/costos/buscar?q=a\")",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(python -c \"import webview; print\\(''pywebview OK''\\)\")",
+      "Bash(curl -s \"http://localhost:8000/api/costos/formatos\")",
+      "Bash(curl -s \"http://localhost:8000/api/costos/familias\")",
+      "Bash(npm run:*)",
+      "Bash(npx vite:*)",
+      "Bash(grep -v \"^$\")",
+      "Bash(npm install:*)",
+      "Bash(DB_NAME=postgres DB_PASS=postgres python migrations/apply_escenarios_receta.py)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); ins=d['detalle_insumos']; print\\(list\\(ins[0].keys\\(\\)\\) if ins else 'empty'\\)\")",
+      "Bash(node -e \"require\\('exceljs'\\); console.log\\('ok'\\)\")",
+      "Bash(curl -s --connect-timeout 3 http://localhost:8000/api/parametros/)",
+      "Bash(grep -n \"color: '#[0-9a-fA-F]\\\\{3,6\\\\}'\" \"c:/Users/gigio/Desktop/PASSOL_COSTEO_DEV/frontend/src/App.tsx\")"
+    ]
+  }
+}

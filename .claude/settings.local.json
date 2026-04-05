@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"@router\\\\.\\\\\\(post\\\\|put\\\\|delete\\\\\\)\" /c/Users/gigio/Desktop/PASSOL_COSTEO_DEV/routers/*.py)",
+      "Bash(curl -s http://localhost:8004/api/parametros/)",
+      "Bash(grep -n \"TAB: Simulador Rentabilidad\\\\|cadenasTab === ''sim-rent''\" frontend/src/App.tsx)",
+      "Bash(awk 'NR>=3200 && NR<=3260' frontend/src/App.tsx)",
+      "Bash(awk 'NR>=3280 && NR<=3340' frontend/src/App.tsx)",
+      "Bash(awk 'NR>=3360 && NR<=3400' frontend/src/App.tsx)",
+      "Bash(python -c \"from routers.escenarios import router_simulacion; print\\(''OK''\\)\")",
+      "Bash(curl -s http://localhost:8000/api/parametros/)",
+      "Bash(python -c \"import requests; r = requests.get\\('http://localhost:8000/api/parametros/'\\); print\\(r.status_code, r.text[:200]\\)\")"
+    ]
+  }
+}
